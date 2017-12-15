@@ -45,5 +45,9 @@
   "Albums": {
     "dataSource": "db",
     "public": true
+  },
+  "Tracks": {
+    "dataSource": "db",
+    "public": true
   }
 }
