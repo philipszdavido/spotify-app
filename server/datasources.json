@@ -2,5 +2,9 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "firestore": {
+    "name": "firestore",
+    "connector": "loopback-connector-firestore"
   }
 }
