@@ -1,10 +1,14 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "firestore": {
-    "name": "firestore",
-    "connector": "loopback-connector-firestore"
-  }
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "firestore": {
+        "name": "firestore",
+        "connector": "loopback-connector-firestore",
+        "type": "service_account",
+        "projectId": "loopback-app",
+        "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0EXIkl2xPuWY3\ng2MB99BwWc2zCm+PgHfwbFVW8CVKSnoRslbVhB1TbQo24bdtzElt2bDZ0kawuMZB\n1CWhiSsCfnEL+wxB4lz7+KAEuecjOBdL0U7j03ouMFzxpw6HA6zeoLxZgjaDMKP1\nr0RzVlMaAa6L8h7hwgzKn8PzyGyLss2iihJuiwwXklh/4uEmLkH4sqA+T6jd3H2T\n3rhM4fQcAYjLs9DJJ5pda1eytmP7f08AMn9+On8WnMzF3Iwx7zfDu4V/n217E8LM\n/wfugR5iDDmo1t4Ooh3VYhayqpIyaEKw9LuBv0KEWU4+EJaCHRcqjw5l079+CTlN\nI6AJAXS5AgMBAAECggEAD1ywKVtCRixt4iVLQnEZBybAL+q/YQWfpeMmJjI7ajK/\npogZlKJuao5CSXOZBazgpFamufSQq5W980KFOdplERPGsvQWY/4K+wOnajPOenCX\n+zPGiFUDxtJBMawUBxR7EGyz2OqNGkThbg3HeBQIp662TJHpzM6Ubwpxihgim4nP\nJ49k7jIHtbJ0DudxXBUBu2wAnqbI/LBwXDYeEd/pb14pm9+2W3/Rhr5eiOmA93E1\nRfmg8nAba+WIu40Ab4cHs46J7/fTVlciBR3D4bBIAVurpHoZkoFNEXWJqC4pSArD\nlq8pOpRouewmv5Bze/ilkEX4XsVWqF1VPr7MgiSnAQKBgQDscERRwLju46kr1gBM\nAVTUFUBtKBY93tFphnVZatEvYIcUMQTqKLDb9ydsh2lB9LVaAcwTXOw+A8VgPWBw\n+tMucTVYQ4a7XbTEYFuVxmt3PGqZLAmrilgKo7LHNk8U2jauQvn/+N+Bz7wsxl0g\nCRrUD/CBA/pefRvUlFZK2pZZAQKBgQDC90Mu7IQmLZQ9V5+MzcqwTMGtitv0dgSg\nN1p3MMYgoYNCUqhATs5vkxb12mw7xFUt4ZlS4Z6SHbwuOwOf4xYkb4ZauUKMUlBA\nS2VF8Kby1+xLNV5imvWrVmyE8viHYTM9Q+g0Tbpwi9LEly0TfxwSp1lyl3NEHUCs\nuU3A1DAjuQKBgQCqq4N1a+NSdb2o6en+8zsTeF+wK66abJvHS4qryAJF66y184hz\nqnm33llz6u8c8BJ0bTWtiHbzcO9pwAQ8qaIFNSznkJ7R4xtYYaHapIbwZAkilfpI\n/Cz/SRkE2fwNtlKgSbKChlh4MMbJn0qblFbsWrElwARbbn3HXmhH0i+TAQKBgAn6\nUYvjOtghWQbSpy2zkn33T6osAxm9uHrimlSjQGCHI4qPZGD2J4Z6RqCKbyOX5qwU\ncZ5WQaFEuE69YnAaVRXER2H5PTilNco0kZhEuqaO+l7W+l+dgpkkMSWUsbdr+A1Y\nnlee6r27yiuZeQsYZD1oJyHAMnv360lrqlkGAvixAoGBAMe2zL8cPHBfXUy7dSes\nIXHVioqsszd+rwLMiZf4kB+iKosCy5pEk3D7dwIx5Ekmnq46p9vbMoYAjbjY4Aof\ncUw6xVnqN00Da8sF0M7XGaUvQsSmnZoeCS/Dxltw0jihAcAMQobWzoodGHDXIWcK\nMh0TpQIr9qA/6dLBwG3wO6hR\n-----END PRIVATE KEY-----\n",
+        "clientEmail": "loopback-app@appspot.gserviceaccount.com"
+    }
 }

@@ -1,53 +1,53 @@
 {
-  "_meta": {
-    "sources": [
-      "loopback/common/models",
-      "loopback/server/models",
-      "../common/models",
-      "./models"
-    ],
-    "mixins": [
-      "loopback/common/mixins",
-      "loopback/server/mixins",
-      "../common/mixins",
-      "./mixins"
-    ]
-  },
-  "User": {
-    "dataSource": "db"
-  },
-  "AccessToken": {
-    "dataSource": "db",
-    "public": false
-  },
-  "ACL": {
-    "dataSource": "db",
-    "public": false
-  },
-  "RoleMapping": {
-    "dataSource": "db",
-    "public": false,
-    "options": {
-      "strictObjectIDCoercion": true
+    "_meta": {
+        "sources": [
+            "loopback/common/models",
+            "loopback/server/models",
+            "../common/models",
+            "./models"
+        ],
+        "mixins": [
+            "loopback/common/mixins",
+            "loopback/server/mixins",
+            "../common/mixins",
+            "./mixins"
+        ]
+    },
+    "User": {
+        "dataSource": "db"
+    },
+    "AccessToken": {
+        "dataSource": "db",
+        "public": false
+    },
+    "ACL": {
+        "dataSource": "db",
+        "public": false
+    },
+    "RoleMapping": {
+        "dataSource": "db",
+        "public": false,
+        "options": {
+            "strictObjectIDCoercion": true
+        }
+    },
+    "Role": {
+        "dataSource": "db",
+        "public": false
+    },
+    "Message": {
+        "dataSource": null
+    },
+    "Artists": {
+        "dataSource": "firestore",
+        "public": true
+    },
+    "Albums": {
+        "dataSource": "firestore",
+        "public": true
+    },
+    "Tracks": {
+        "dataSource": "firestore",
+        "public": true
     }
-  },
-  "Role": {
-    "dataSource": "db",
-    "public": false
-  },
-  "Message": {
-    "dataSource": null
-  },
-  "Artists": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Albums": {
-    "dataSource": "db",
-    "public": true
-  },
-  "Tracks": {
-    "dataSource": "db",
-    "public": true
-  }
 }
