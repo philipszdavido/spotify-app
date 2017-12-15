@@ -1,0 +1,32 @@
+{
+  "name": "Artists",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "popularity": {
+      "type": "number",
+      "required": true
+    },
+    "genres": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
