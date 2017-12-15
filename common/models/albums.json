@@ -1,42 +1,42 @@
 {
-  "name": "Albums",
-  "base": "PersistedModel",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "name": {
-      "type": "string",
-      "required": true
+    "name": "Albums",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
     },
-    "artists": {
-      "type": [
-        "string"
-      ],
-      "required": true
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "artists": {
+            "type": [
+                "object"
+            ],
+            "required": true
+        },
+        "album_type": {
+            "type": "string",
+            "required": true
+        },
+        "tracks": {
+            "type": [
+                "object"
+            ],
+            "required": true
+        },
+        "image": {
+            "type": "string",
+            "required": true
+        },
+        "release_date": {
+            "type": "string",
+            "required": true
+        }
     },
-    "album_type": {
-      "type": "string",
-      "required": true
-    },
-    "tracks": {
-      "type": [
-        "string"
-      ],
-      "required": true
-    },
-    "image": {
-      "type": "string",
-      "required": true
-    },
-    "release_date": {
-      "type": "string",
-      "required": true
-    }
-  },
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
 }

@@ -1,32 +1,32 @@
 {
-  "name": "Artists",
-  "base": "PersistedModel",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "name": {
-      "type": "string",
-      "required": true
+    "name": "Artists",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
     },
-    "popularity": {
-      "type": "number",
-      "required": true
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "popularity": {
+            "type": "number",
+            "required": true
+        },
+        "genres": {
+            "type": [
+                "object"
+            ],
+            "required": true
+        },
+        "image": {
+            "type": "string",
+            "required": true
+        }
     },
-    "genres": {
-      "type": [
-        "string"
-      ],
-      "required": true
-    },
-    "image": {
-      "type": "string",
-      "required": true
-    }
-  },
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
 }
