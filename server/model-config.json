@@ -41,5 +41,9 @@
   "Artists": {
     "dataSource": "db",
     "public": true
+  },
+  "Albums": {
+    "dataSource": "db",
+    "public": true
   }
 }
