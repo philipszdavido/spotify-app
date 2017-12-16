@@ -13,10 +13,10 @@ var jwtCheck = jwt({
         cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 5,
-        jwksUri: "https://chidumennamdi.auth0.com/.well-known/jwks.json"
+        jwksUri: "https://{YOUR-AUTH0-URL-HERE}.auth0.com/.well-known/jwks.json"
     }),
-    audience: 'https://spotify-app.com',
-    issuer: "https://chidumennamdi.auth0.com/",
+    audience: '{YOUR-API-AUDIENCE-GOES-HERE}',
+    issuer: "{YOUR-AUTH0-ISSUER-HERE}",
     algorithms: ['RS256']
 });
 
